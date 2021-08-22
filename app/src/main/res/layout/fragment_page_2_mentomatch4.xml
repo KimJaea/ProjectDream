@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ListView
+        android:id="@+id/majorjob_list4"
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:textFilterEnabled="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/mento_select_btn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="60dp"
+            android:text="멘토 선택"
+            android:textSize="36sp" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

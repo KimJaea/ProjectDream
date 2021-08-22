@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="🌱회원가입🌱"
+            android:textColor="@color/main_green"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint=" NAME"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/idText"
+            android:drawableStart="@drawable/person"
+            android:drawableLeft="@drawable/person"
+            android:layout_marginTop="50dp"
+            android:background="@color/sub_green"
+            />
+
+        <EditText
+            android:id="@+id/birthText"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/sub_green"
+            android:drawableStart="@drawable/calendar"
+            android:drawableLeft="@drawable/calendar"
+            android:hint="AGE"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint=" E-mail"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/emailText"
+            android:drawableStart="@drawable/email"
+            android:drawableLeft="@drawable/email"
+            android:layout_marginTop="10dp"
+            android:background="@color/sub_green"
+            />
+
+
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint=" PASSWORD"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/passwordText"
+            android:drawableStart="@drawable/lock"
+            android:drawableLeft="@drawable/lock"
+            android:layout_marginTop="10dp"
+            android:background="@color/sub_green"
+            />
+
+
+        <Button
+            android:id="@+id/register_fin_button"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@color/main_green"
+            android:text="회원가입 완료"
+            android:layout_marginTop="50dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

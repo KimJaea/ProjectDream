@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="20dp"
+        android:text="멘토링 시작하기"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/match_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아직 멘토가 없으신가요?"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+</LinearLayout>
